@@ -21,11 +21,7 @@ public class Movies{
             System.out.print("Dans le film " + title[i] + "Les principaux acteurs sont : " );
             System.out.println(Arrays.toString(actors[i]));
 
-            //System.out.println(Arrays.toString(weapons[2]));
-
-
         }
-
 
     };
 
