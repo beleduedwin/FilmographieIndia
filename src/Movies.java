@@ -18,8 +18,8 @@ public class Movies{
 
         for(int i = 0; i < title.length; i++ ){
 
-            System.out.print("Dans le film " + title[i] + "Les principaux acteurs sont : " );
-            System.out.println(Arrays.toString(actors[i]));
+            System.out.print("Dans le film " + title[i] + "Les principaux acteurs sont : ");
+            System.out.println(Arrays.toString(actors[i]).replaceAll("\\[|\\]"," " ));
 
         }
 
